@@ -168,27 +168,22 @@ if(isset($_POST['add_to_cart'])){
                     </select>
                 </div>
             </div>
+            
+            
             <div class="return">
-                <div class="row">
-                    <div>Total Quantity</div>
-                    <div class="totalQuantity">70</div>
-                </div>
-                
-                <div class="row">
-                    <div>Total Price</div>
-                    <div class="totalPrice">$900</div>
-                </div>
+               
+
+                <div class="row">              
+               <div colspan="4">grand total :</div>
+               <div>$<?php echo $grand_total; ?>/-</div>
+               </div>
+        
             </div>
-            <button class="buttonCheckout">CHECKOUT</button>
+            <a href="billing.php" class="btn <?php echo ($grand_total > 1)?'':'disabled'; ?>">proceed to checkout</a>
+   </div>
             </div>
     </div>
 </div>
-
-
-
-
-
-
 
 <script src="checkout.js"></script>
 

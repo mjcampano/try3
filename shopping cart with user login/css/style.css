@@ -128,7 +128,7 @@ body{
 .form-container form p a:hover{
    text-decoration: underline;
 }
-
+/*here1*/
 .container{
    padding:0 20px;
    margin:0 auto;
@@ -177,7 +177,7 @@ body{
    display: flex;
    flex-wrap: wrap;
    gap:15px;
-   justify-content: center;
+   justify-content: center ;
 }
 
 .container .products .box-container .box{
@@ -220,7 +220,7 @@ body{
    color:var(--black);
    padding:12px 14px
 }
-
+/*here*/
 .container .shopping-cart{
    padding:20px 0;
 }
